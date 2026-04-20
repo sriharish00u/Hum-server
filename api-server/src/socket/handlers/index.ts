@@ -1,5 +1,6 @@
 import type { Server, Socket } from "socket.io";
 import { sessionManager } from "../../modules/session";
+import { incrementStat } from "../../models/stats.model";
 
 interface JoinSessionData {
   sessionId: string;
@@ -68,7 +69,6 @@ export function setupSocketHandlers(io: Server): void {
       if (message) {
         message.sessionId = sessionId;
         io.to(sessionId).emit("new-message", message);
-        socket.emit("new-message", message);
       }
     });
 
@@ -104,6 +104,9 @@ export function setupSocketHandlers(io: Server): void {
       console.log(`📢 ALERT BROADCASTED | sessionId: ${session.id} | to all clients`);
 
       socket.emit("alert-sent", { sessionId: session.id });
+
+      // fire and forget:
+      incrementStat("sosHandled").catch(() => {});
     });
 
     socket.on("create-session", (data: { type: "UNITY" | "REPORTX"; userId: string; userName: string }) => {
