@@ -24,6 +24,7 @@ async function buildAll() {
       "*.node",
       "sharp",
       "better-sqlite3",
+      "mongoose", 
       "sqlite3",
       "canvas",
       "bcrypt",
