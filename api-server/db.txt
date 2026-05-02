@@ -1,0 +1,228 @@
+
+===== ACTIVITIES =====
+[
+  {
+    "_id": "69f2d8f3640ffb078f7b4177",
+    "title": "School clean",
+    "description": "Cleaning campus",
+    "createdBy": "dev_mo8siq45_df2vdx5p",
+    "participants": [],
+    "maxParticipants": 50,
+    "startTime": "2026-05-01T03:30:00.000Z",
+    "endTime": "2026-05-01T05:30:00.000Z",
+    "status": "ended",
+    "videoCallEnabled": false,
+    "createdAt": "2026-04-30T04:22:11.140Z",
+    "updatedAt": "2026-04-30T04:28:09.534Z",
+    "__v": 0
+  }
+]
+
+===== COMMUNITIES =====
+[
+  {
+    "_id": "69eb1a9b49cc2a57d66d5c3f",
+    "name": "My City Community",
+    "description": "Default community for My City",
+    "createdBy": "dev_mo8sk8o9_zzv7imbe",
+    "members": [
+      "dev_mo8sk8o9_zzv7imbe"
+    ],
+    "createdAt": "2026-04-24T07:24:11.796Z",
+    "updatedAt": "2026-04-24T07:24:11.796Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f2dade640ffb078f7b417b",
+    "name": "Chettipalayam Community",
+    "description": "Default community for Chettipalayam",
+    "createdBy": "dev_mo8siq45_df2vdx5p",
+    "members": [
+      "dev_mo8siq45_df2vdx5p",
+      "b49d91d8-57db-4946-b9c5-1dbc60eff9c5"
+    ],
+    "createdAt": "2026-04-30T04:30:22.144Z",
+    "updatedAt": "2026-05-02T02:44:26.389Z",
+    "__v": 0
+  }
+]
+
+===== COMMUNITYMESSAGES =====
+[]
+
+===== MESSAGES =====
+[
+  {
+    "_id": "69f2d99e640ffb078f7b417a",
+    "sessionId": "e20dca9e-92aa-4172-84b5-a899aa4ca4f2",
+    "userId": "dev_mo8siq45_df2vdx5p",
+    "userName": "Harish",
+    "text": "Hi",
+    "timestamp": "2026-04-30T04:25:02.650Z",
+    "createdAt": "2026-04-30T04:25:02.652Z",
+    "updatedAt": "2026-04-30T04:25:02.652Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f32bd53a40ba4068cd8814",
+    "sessionId": "f4f8d7d9-53cb-4b96-bc6f-4c3a2f46d290",
+    "userId": "dev_mo8siq45_df2vdx5p",
+    "userName": "Harish",
+    "text": "Hi",
+    "timestamp": "2026-04-30T10:15:49.136Z",
+    "createdAt": "2026-04-30T10:15:49.138Z",
+    "updatedAt": "2026-04-30T10:15:49.138Z",
+    "__v": 0
+  }
+]
+
+===== ORGANIZATIONS =====
+[]
+
+===== REPORTS =====
+[
+  {
+    "_id": "69e5c9d23c2cfa33bc3cbc79",
+    "title": "Test Report",
+    "text": "DB integration test",
+    "createdBy": "system",
+    "location": {
+      "latitude": 11.0168,
+      "longitude": 76.9558
+    },
+    "anonymous": false,
+    "status": "open",
+    "createdAt": "2026-04-20T06:38:10.995Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f32a4f3a40ba4068cd8812",
+    "title": "Broken street light",
+    "text": "Fixe needed",
+    "createdBy": "dev_mo8siq45_df2vdx5p",
+    "location": {
+      "latitude": 10.92344837175887,
+      "longitude": 77.0390336215496,
+      "address": "1/615, Chettipalayam, Tamil Nadu, India"
+    },
+    "anonymous": true,
+    "status": "open",
+    "upvotes": 0,
+    "upvotedBy": [],
+    "createdAt": "2026-04-30T10:09:19.405Z",
+    "updatedAt": "2026-04-30T10:09:19.405Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f42aa494c7e077b981e120",
+    "title": "Hi",
+    "text": "Hi",
+    "createdBy": "b49d91d8-57db-4946-b9c5-1dbc60eff9c5",
+    "location": {
+      "latitude": 9.4945612392872,
+      "longitude": 80.98435822874308,
+      "address": "9.494561, 80.984358"
+    },
+    "anonymous": true,
+    "status": "open",
+    "upvotes": 0,
+    "upvotedBy": [],
+    "createdAt": "2026-05-01T04:23:00.275Z",
+    "updatedAt": "2026-05-01T04:23:00.275Z",
+    "__v": 0
+  }
+]
+
+===== SESSIONS =====
+[
+  {
+    "_id": "4695390c-453d-48ac-ab70-2cba7d9e2bf4",
+    "type": "SOS",
+    "title": "",
+    "createdBy": "b49d91d8-57db-4946-b9c5-1dbc60eff9c5",
+    "participants": [],
+    "startTime": "2026-05-01T04:10:26.435Z",
+    "status": "ended",
+    "createdAt": "2026-05-01T04:10:26.445Z",
+    "updatedAt": "2026-05-01T04:15:55.639Z",
+    "__v": 0,
+    "endTime": "2026-05-01T04:15:55.638Z"
+  },
+  {
+    "_id": "1277b537-ff9b-473e-baae-dd0a8cd71f57",
+    "type": "SOS",
+    "title": "",
+    "createdBy": "b49d91d8-57db-4946-b9c5-1dbc60eff9c5",
+    "participants": [],
+    "startTime": "2026-05-01T11:04:14.144Z",
+    "status": "ended",
+    "createdAt": "2026-05-01T11:04:14.152Z",
+    "updatedAt": "2026-05-01T11:05:36.782Z",
+    "__v": 0,
+    "endTime": "2026-05-01T11:05:36.781Z"
+  }
+]
+
+===== STATS =====
+[
+  {
+    "_id": "global",
+    "__v": 0,
+    "activitiesDone": 1,
+    "reportsSubmitted": 2,
+    "sosHandled": 32,
+    "updatedAt": "2026-05-01T11:05:36.461Z",
+    "resolvedReports": 4
+  }
+]
+
+===== STUDENTS =====
+[]
+
+===== USERS =====
+[
+  {
+    "_id": "69e79b6513cd355e2a9bf66e",
+    "deviceId": "dev_mo8sk8o9_zzv7imbe",
+    "__v": 0,
+    "activitiesJoined": 0,
+    "alertsHandled": 0,
+    "avatarId": 1,
+    "createdAt": "2026-04-21T15:44:36.464Z",
+    "impactPoints": 0,
+    "name": "Jay",
+    "reportsSubmitted": 0,
+    "reputation": 0,
+    "updatedAt": "2026-04-24T07:21:36.137Z"
+  },
+  {
+    "_id": "69e865d313cd355e2aaa0ecb",
+    "deviceId": "dev_mo8siq45_df2vdx5p",
+    "__v": 0,
+    "activitiesJoined": 0,
+    "alertsHandled": 2,
+    "avatarId": 1,
+    "createdAt": "2026-04-22T06:08:19.740Z",
+    "impactPoints": 25,
+    "name": "Harish",
+    "reportsSubmitted": 1,
+    "reputation": 40,
+    "updatedAt": "2026-04-30T11:01:10.677Z"
+  },
+  {
+    "_id": "69f41ada7401d9802c202f4d",
+    "deviceId": "b49d91d8-57db-4946-b9c5-1dbc60eff9c5",
+    "__v": 0,
+    "activitiesJoined": 0,
+    "alertsHandled": 3,
+    "avatarId": 1,
+    "createdAt": "2026-05-01T03:15:36.059Z",
+    "impactPoints": 28,
+    "isVerifiedVolunteer": false,
+    "name": "Jay",
+    "reportsSubmitted": 1,
+    "reputation": 45,
+    "updatedAt": "2026-05-02T02:44:12.162Z",
+    "volunteerVerificationStatus": "none"
+  }
+]
